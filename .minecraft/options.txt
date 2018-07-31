@@ -17,7 +17,7 @@ ao:2
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:localhost:25565
 lang:en_us
 chatVisibility:0
 chatColors:true
@@ -118,6 +118,9 @@ key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
 key_Difficulty Meter - Show:49
 key_Difficulty Meter - Show Always:49:SHIFT
+key_wecui.keys.toggle:0
+key_wecui.keys.clear:0
+key_wecui.keys.chunk:0
 key_key.cameraZoomIn:13
 key_key.cameraZoomOut:12
 key_key.cameraEmitRedstone:19
