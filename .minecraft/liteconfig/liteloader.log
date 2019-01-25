@@ -1,10 +1,10 @@
-[21:37:06] [main/INFO]: LiteLoader 1.12.2 starting up...
-[21:37:06] [main/INFO]: Active Pack: 1.12.2-SNAPSHOT-r4CC2BB0-b4-4
-[21:37:06] [main/INFO]: Java reports OS="windows 10"
-[21:37:06] [main/INFO]: Adding supported mod class prefix 'LiteMod'
-[21:37:06] [main/INFO]: Enumerating class path...
-[21:37:06] [main/INFO]: Class path separator=";"
-[21:37:06] [main/INFO]: Class path entries=(
+[22:20:38] [main/INFO]: LiteLoader 1.12.2 starting up...
+[22:20:38] [main/INFO]: Active Pack: 1.12.2-SNAPSHOT-r4CC2BB0-b4-4
+[22:20:38] [main/INFO]: Java reports OS="windows 10"
+[22:20:38] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[22:20:38] [main/INFO]: Enumerating class path...
+[22:20:38] [main/INFO]: Class path separator=";"
+[22:20:38] [main/INFO]: Class path entries=(
    classpathEntry=C:/Users/Public/MultiMC/jars/NewLaunch.jar
    classpathEntry=C:/Users/Public/MultiMC/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar
    classpathEntry=C:/Users/Public/MultiMC/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar
@@ -40,7 +40,7 @@
    classpathEntry=C:/Users/Public/MultiMC/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
    classpathEntry=C:/Users/Public/MultiMC/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar
    classpathEntry=C:/Users/Public/MultiMC/libraries/com/mumfrey/liteloader/1.12.2-SNAPSHOT/liteloader-1.12.2-SNAPSHOT.jar
-   classpathEntry=C:/Users/Public/MultiMC/libraries/net/minecraftforge/forge/1.12.2-14.23.4.2745/forge-1.12.2-14.23.4.2745-universal.jar
+   classpathEntry=C:/Users/Public/MultiMC/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2808/forge-1.12.2-14.23.5.2808-universal.jar
    classpathEntry=C:/Users/Public/MultiMC/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar
    classpathEntry=C:/Users/Public/MultiMC/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
    classpathEntry=C:/Users/Public/MultiMC/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar
@@ -59,448 +59,474 @@
    classpathEntry=C:/Users/Public/MultiMC/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar
    classpathEntry=C:/Users/Public/MultiMC/libraries/com/mojang/minecraft/1.12.2/minecraft-1.12.2-client.jar
 )
-[21:37:06] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
-[21:37:06] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods]
-[21:37:06] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\1.12.2]
-[21:37:06] [main/INFO]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@70e0accd]
-[21:37:06] [main/INFO]: Discovering valid mod files in folder C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods
-[21:37:06] [main/INFO]: Inspecting jar metadata in '# LibLoader.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\# LibLoader.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'AkashicTome-1.2-10.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\AkashicTome-1.2-10.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'AppleSkin-mc1.12-1.0.9.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\AppleSkin-mc1.12-1.0.9.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Aquaculture-1.12.2-1.6.5.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Aquaculture-1.12.2-1.6.5.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Aroma1997Core-1.12.2-2.0.0.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Aroma1997Core-1.12.2-2.0.0.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Aroma1997s-Dimensional-World-1.12-1.3.0.0.b37.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Aroma1997s-Dimensional-World-1.12-1.3.0.0.b37.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'AromaBackup-1.12.2-2.1.1.4.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\AromaBackup-1.12.2-2.1.1.4.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'AutoRegLib-1.3-18.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\AutoRegLib-1.3-18.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Avaritia-1.12.2-3.2.0.25-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Avaritia-1.12.2-3.2.0.25-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Baubles-1.12-1.5.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Baubles-1.12-1.5.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'bdlib-1.14.3.12-mc1.12.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\bdlib-1.14.3.12-mc1.12.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'BedBugs-1.12-1.0.1.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\BedBugs-1.12-1.0.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'BetterAdvancements-1.12.2-0.0.5.17.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\BetterAdvancements-1.12.2-0.0.5.17.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'BetterFoliage-MC1.12-2.1.10.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\BetterFoliage-MC1.12-2.1.10.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'BetterSprinting++MC-1.12.2++v2.1.1.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\BetterSprinting++MC-1.12.2++v2.1.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Botania+r1.10-354.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Botania+r1.10-354.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'buildcraft-7.99.17.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\buildcraft-7.99.17.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'buildcraft-compat-7.99.14.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\buildcraft-compat-7.99.14.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Bullseye-1.12.2-3.0.6.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Bullseye-1.12.2-3.0.6.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Ceramics-1.12-1.3.4.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Ceramics-1.12-1.3.4.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'chameleoncreepers-1.4.1-1.12.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\chameleoncreepers-1.4.1-1.12.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Charset-Lib-0.5.3.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Charset-Lib-0.5.3.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Charset-StorageBarrels-0.5.3.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Charset-StorageBarrels-0.5.3.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Charset-StorageChests-0.5.3.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Charset-StorageChests-0.5.3.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Charset-StorageTanks-0.5.3.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Charset-StorageTanks-0.5.3.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Charset-TransportCartsRails-0.5.2.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Charset-TransportCartsRails-0.5.2.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ChickenChunks-1.12.2-2.4.1.71-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ChickenChunks-1.12.2-2.4.1.71-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'chiselsandbits-14.20.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\chiselsandbits-14.20.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Clumps-3.1.1.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Clumps-3.1.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'CodeChickenLib-1.12.2-3.2.0.345-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\CodeChickenLib-1.12.2-3.2.0.345-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'CoFHCore-1.12.2-4.5.3.20-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\CoFHCore-1.12.2-4.5.3.20-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'CoFHWorld-1.12.2-1.2.0.5-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\CoFHWorld-1.12.2-1.2.0.5-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'CsokiCraftUtil-1.3.6.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\CsokiCraftUtil-1.3.6.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'DeathCounter-1.12.1-1.0.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\DeathCounter-1.12.1-1.0.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'DebugServerInfo-1.12.2-1.0.5.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\DebugServerInfo-1.12.2-1.0.5.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Decocraft-2.6.0_1.12.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Decocraft-2.6.0_1.12.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'DynamicLights-1.12.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\DynamicLights-1.12.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ElevatorMod-1.12.2-1.3.6.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ElevatorMod-1.12.2-1.3.6.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'EnderCore-1.12.2-0.5.35.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\EnderCore-1.12.2-0.5.35.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'EnderIO-1.12.2-5.0.29.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\EnderIO-1.12.2-5.0.29.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'EnderStorage-1.12.2-2.4.4.132-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\EnderStorage-1.12.2-2.4.4.132-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'endertanks-1.12.0-1.6.6.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\endertanks-1.12.0-1.6.6.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'EnderZoo-1.12.1-1.4.0.49.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\EnderZoo-1.12.1-1.4.0.49.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ExtraBitManipulation-1.12-3.2.1.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ExtraBitManipulation-1.12-3.2.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'extrautils2-1.12-1.8.1.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\extrautils2-1.12-1.8.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ExtremeEnergy-1.1.7.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ExtremeEnergy-1.1.7.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'FastLeafDecay-v14.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\FastLeafDecay-v14.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'flatcoloredblocks-mc1.12-6.6.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\flatcoloredblocks-mc1.12-6.6.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'foamfix-0.9.9.1-1.12.2-anarchy.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\foamfix-0.9.9.1-1.12.2-anarchy.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'forestry_1.12.2-5.8.1.326.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\forestry_1.12.2-5.8.1.326.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ForgeMultipart-1.12.2-2.4.2.60-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ForgeMultipart-1.12.2-2.4.2.60-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'FullscreenWindowed-1.12-1.6.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\FullscreenWindowed-1.12-1.6.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'GraveStone-1.12.2-Extended-1.2.6.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\GraveStone-1.12.2-Extended-1.2.6.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'GraveStone-1.12.2-Graves-1.0.16.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\GraveStone-1.12.2-Graves-1.0.16.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Guide-API-1.12-2.1.6-61.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Guide-API-1.12-2.1.6-61.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'HelpFixer-1.12.1-1.5.18.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\HelpFixer-1.12.1-1.5.18.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'iChunUtil-1.12.2-7.1.4.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\iChunUtil-1.12.2-7.1.4.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ImmersiveEngineering-0.12-84.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ImmersiveEngineering-0.12-84.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'immersivepetroleum-1.12.2-1.1.9.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\immersivepetroleum-1.12.2-1.1.9.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'industrialcraft-2-2.8.94-ex112.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\industrialcraft-2-2.8.94-ex112.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'instantunify-1.12.2-1.1.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\instantunify-1.12.2-1.1.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'InventoryTweaks-1.63.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\InventoryTweaks-1.63.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'IronBackpacks-1.12.2-3.0.8-12.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\IronBackpacks-1.12.2-3.0.8-12.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'IvToolkit-1.3.3-1.12.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\IvToolkit-1.3.3-1.12.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'JEHC-1.12.2-1.6.1.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\JEHC-1.12.2-1.6.1.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'jei_1.12.2-4.11.0.202.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\jei_1.12.2-4.11.0.202.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'journeymap-1.12.2-5.5.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\journeymap-1.12.2-5.5.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'JustEnoughResources-1.12.2-0.8.5.27.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\JustEnoughResources-1.12.2-0.8.5.27.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'landcore-1.5.0.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\landcore-1.5.0.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'landcraft-2.2.1.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\landcraft-2.2.1.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'MagicBees-1.12.2-3.1.10.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MagicBees-1.12.2-3.1.10.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'malisisblocks-1.12.2-6.1.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\malisisblocks-1.12.2-6.1.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'malisiscore-1.12.2-6.4.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\malisiscore-1.12.2-6.4.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'malisisdoors-1.12.2-7.3.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\malisisdoors-1.12.2-7.3.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Mantle-1.12-1.3.2.24.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Mantle-1.12-1.3.2.24.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'mcjtylib-1.12-3.0.3.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mcjtylib-1.12-3.0.3.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'MCMultiPart-2.5.1.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MCMultiPart-2.5.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Mekanism-1.12.2-9.4.13.349.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Mekanism-1.12.2-9.4.13.349.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'MekanismGenerators-1.12.2-9.4.13.349.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MekanismGenerators-1.12.2-9.4.13.349.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'MekanismTools-1.12.2-9.4.13.349.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MekanismTools-1.12.2-9.4.13.349.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'MobAmputation-1.12.2-7.0.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MobAmputation-1.12.2-7.0.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'MobDismemberment-1.12.2-7.0.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MobDismemberment-1.12.2-7.0.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'mod-gammabright-3.7-mc1.12.litemod'
-[21:37:06] [main/INFO]: Not adding invalid or version-mismatched mod file: C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod-gammabright-3.7-mc1.12.litemod
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod'
-[21:37:06] [main/INFO]: Considering valid mod file: C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'moreoverlays-1.14-mc1.12.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\moreoverlays-1.14-mc1.12.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Morph-o-Tool-1.2-16.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Morph-o-Tool-1.2-16.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Morpheus-1.12-3.3.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Morpheus-1.12-3.3.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'MouseTweaks-2.8-mc1.12.1.jar'
-[21:37:06] [main/INFO]: Not adding invalid or version-mismatched mod file: C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MouseTweaks-2.8-mc1.12.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'MrTJPCore-1.12.2-2.1.3.35-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MrTJPCore-1.12.2-2.1.3.35-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'multibeds-1.12.0-1.4.3.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\multibeds-1.12.0-1.4.3.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'multistorage-1.12.0-1.4.10.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\multistorage-1.12.0-1.4.10.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'natura-1.12.2-4.3.2.62.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\natura-1.12.2-4.3.2.62.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'NetherPortalFix_1.12.1-5.3.13.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\NetherPortalFix_1.12.1-5.3.13.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'NoMoreRecipeConflict-0.11(1.12.2).jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\NoMoreRecipeConflict-0.11(1.12.2).jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'NotEnoughItems-1.12.2-2.4.1.233-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\NotEnoughItems-1.12.2-2.4.1.233-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'NuclearCraft-2.10p--1.12.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\NuclearCraft-2.10p--1.12.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'omlib-1.12.2-3.0.0-148.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\omlib-1.12.2-3.0.0-148.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ompd-1.12.2-3.0.0-36.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ompd-1.12.2-3.0.0-36.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'OpenComputers-MC1.12.2-1.7.2.67.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\OpenComputers-MC1.12.2-1.7.2.67.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'openmodularturrets-1.12.2-3.0.1-257.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\openmodularturrets-1.12.2-3.0.1-257.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'OptiFine_1.12.2_HD_U_D2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\OptiFine_1.12.2_HD_U_D2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Pam's+HarvestCraft+1.12.2u.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Pam's+HarvestCraft+1.12.2u.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'platforms-1.12.0-1.4.5.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\platforms-1.12.0-1.4.5.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'plustic-6.5.2.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\plustic-6.5.2.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'PortalGun-1.12.2-7.0.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\PortalGun-1.12.2-7.0.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'PotionFingers-r1.0-2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\PotionFingers-r1.0-2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'pressure-1.3.1.6-mc1.12.1.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\pressure-1.3.1.6-mc1.12.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-Base.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-Base.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-compat.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-compat.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-fabrication.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-fabrication.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-integration.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-integration.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-lighting.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-lighting.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-mechanical.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-mechanical.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-world.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-world.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Psi-r1.1-59.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Psi-r1.1-59.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'PTRLib-1.0.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\PTRLib-1.0.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'reap-1.5.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\reap-1.5.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'reauth-3.6.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\reauth-3.6.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'RecurrentComplex-1.4.7.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\RecurrentComplex-1.4.7.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'RedstoneArsenal-1.12.2-2.5.1.13-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\RedstoneArsenal-1.12.2-2.5.1.13-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'RedstoneFlux-1.12-2.0.2.3-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\RedstoneFlux-1.12-2.0.2.3-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'refinedstorage-1.6.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\refinedstorage-1.6.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'refinedstorageaddons-0.4.1.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\refinedstorageaddons-0.4.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'rftools-1.12-7.55.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\rftools-1.12-7.55.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'rftoolsctrl-1.12-1.9.1.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\rftoolsctrl-1.12-1.9.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'rftoolsdim-1.12-5.60.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\rftoolsdim-1.12-5.60.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ScalingHealth-1.12-1.3.19-102.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ScalingHealth-1.12-1.3.19-102.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'shetiphiancore-1.12.0-3.5.7.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\shetiphiancore-1.12.0-3.5.7.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'SilentLib-1.12-2.2.18-100.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\SilentLib-1.12-2.2.18-100.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'SimpleLogic-Gates-0.5.3.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\SimpleLogic-Gates-0.5.3.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'SimpleLogic-Wires-0.5.3.2.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\SimpleLogic-Wires-0.5.3.2.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'SmoothWater-0.1.4.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\SmoothWater-0.1.4.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'sodiumcraft-1.3.4.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\sodiumcraft-1.3.4.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Survivalist-1.12.2-2.1.5.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Survivalist-1.12.2-2.1.5.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'TConstruct-1.12.2-2.10.1.87.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\TConstruct-1.12.2-2.10.1.87.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Tesla-1.12.2-1.0.63.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Tesla-1.12.2-1.0.63.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'teslafied-1.12-1.1.1.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\teslafied-1.12-1.1.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Thaumcraft-1.12.2-6.1.BETA19.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Thaumcraft-1.12.2-6.1.BETA19.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ThermalCultivation-1.12.2-0.3.0.7-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ThermalCultivation-1.12.2-0.3.0.7-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ThermalDynamics-1.12.2-2.5.1.14-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ThermalDynamics-1.12.2-2.5.1.14-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ThermalExpansion-1.12.2-5.5.0.29-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ThermalExpansion-1.12.2-5.5.0.29-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ThermalFoundation-1.12.2-2.5.0.19-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ThermalFoundation-1.12.2-2.5.0.19-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ThermalInnovation-1.12.2-0.3.0.7-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ThermalInnovation-1.12.2-0.3.0.7-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'thutcore-1.12.2-5.17.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\thutcore-1.12.2-5.17.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'thuttech-1.12.2-6.0.16.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\thuttech-1.12.2-6.0.16.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'TickProfiler-1.12-0.0.4.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\TickProfiler-1.12-0.0.4.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'TinkeredHegemony-0.2.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\TinkeredHegemony-0.2.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'tinker_io-1.12.2-release+2.6.1.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\tinker_io-1.12.2-release+2.6.1.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'TIS-3D-MC1.12.2-1.4.0.29.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\TIS-3D-MC1.12.2-1.4.0.29.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Translocators-1.12.2-2.5.0.73-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Translocators-1.12.2-2.5.0.73-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'twilightforest-1.12.2-3.7.424-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\twilightforest-1.12.2-3.7.424-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'UniDict-1.12.2-2.5f.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\UniDict-1.12.2-2.5f.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'UnlimitedChiselWorks-0.2.0.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\UnlimitedChiselWorks-0.2.0.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'WanionLib-1.12.2-1.5.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\WanionLib-1.12.2-1.5.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'Waystones_1.12.2-4.0.54.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Waystones_1.12.2-4.0.54.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'worldedit-forge-mc1.12-6.1.8-dist.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\worldedit-forge-mc1.12-6.1.8-dist.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'WR-CBE-1.12.2-2.3.0.27-universal.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\WR-CBE-1.12.2-2.3.0.27-universal.jar
-[21:37:06] [main/INFO]: Inspecting jar metadata in '[1.12.x]+SecurityCraft+v1.8.6.jar'
-[21:37:06] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\[1.12.x]+SecurityCraft+v1.8.6.jar
-[21:37:06] [main/INFO]: Discovering valid mod files in folder C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\1.12.2
-[21:37:06] [main/INFO]: Inspecting jar metadata in 'ChickenASM-1.12-1.0.2.7.jar'
-[21:37:06] [main/INFO]: Baking listener list for EnumerationObserver with 1 listeners
-[21:37:07] [main/INFO]: Discovering tweaks on class path...
-[21:37:07] [main/INFO]: Registering discovered mod files in folder C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods
-[21:37:07] [main/INFO]: Adding newest valid mod file 'C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod' at revision 11210.0000
-[21:37:07] [main/INFO]: Registering discovered mod files in folder C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\1.12.2
-[21:37:07] [main/INFO]: Mod file 'ChickenASM-1.12-1.0.2.7.jar' provides tweakClass 'codechicken.asm.internal.Tweaker', adding to Launch queue with priority 1000
-[21:37:07] [main/INFO]: tweakClass 'codechicken.asm.internal.Tweaker' was successfully added
-[21:37:07] [main/INFO]: Initialising LiteLoader Mixins
-[21:37:07] [main/INFO]: LiteLoader PREINIT complete
-[21:37:12] [main/INFO]: FML detected, switching to searge mappings
-[21:39:25] [main/INFO]: JInput Component Registry is initialising...
-[21:39:25] [main/INFO]: Inspecting Mouse controller HID-konforme Maus on Unknown...
-[21:39:25] [main/INFO]: Inspecting Keyboard controller HID-Tastatur on Unknown...
-[21:39:25] [main/INFO]: Inspecting Keyboard controller HID-Tastatur on Unknown...
-[21:39:25] [main/INFO]: Inspecting Keyboard controller HID-Tastatur on Unknown...
-[21:39:25] [main/INFO]: Inspecting Mouse controller HID-konforme Maus on Unknown...
-[21:39:25] [main/INFO]: Inspecting Unknown controller HID-konformes Benutzersteuergerät on Unknown...
-[21:39:25] [main/INFO]: Inspecting Unknown controller HID-konformer Systemcontroller on Unknown...
-[21:39:25] [main/INFO]: Inspecting Unknown controller Audio Controls on Unknown...
-[21:39:25] [main/INFO]: Inspecting Unknown controller Corsair Vengeance M90 Mouse on Unknown...
-[21:39:25] [main/INFO]: JInput Component Registry initialised, found 9 controller(s) 442 component(s)
-[21:39:26] [main/INFO]: LiteLoader begin INIT...
-[21:39:26] [main/INFO]: Baking listener list for CoreProvider with 2 listeners
-[21:39:26] [main/INFO]: Injecting external mods into class path...
-[21:39:26] [main/INFO]: Successfully injected mod file 'C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod' into classpath
-[21:39:26] [main/INFO]: Injecting external mods into class path...
-[21:39:26] [main/INFO]: Discovering mods on class path...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\jars\NewLaunch.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mojang\patchy\1.1\patchy-1.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\google\guava\guava\21.0\guava-21.0.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mumfrey\liteloader\1.12.2-SNAPSHOT\liteloader-1.12.2-SNAPSHOT.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\minecraftforge\forge\1.12.2-14.23.4.2745\forge-1.12.2-14.23.4.2745-universal.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mojang\minecraft\1.12.2\minecraft-1.12.2-client.jar...
-[21:39:26] [main/INFO]: Discovering mods in valid mod files...
-[21:39:26] [main/INFO]: Searching C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod...
-[21:39:26] [main/INFO]: Found 1 potential matches
-[21:39:26] [main/INFO]: Discovering mods in valid mod files...
-[21:39:26] [main/INFO]: Mod class discovery completed
-[21:39:26] [main/INFO]: LiteLoader begin POSTINIT...
-[21:39:26] [main/INFO]: Inhibiting sound handler reload
-[21:39:26] [main/INFO]: Registering interface provider com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient for API LiteLoader core API
-[21:39:26] [main/INFO]: Registering interface provider com.mumfrey.liteloader.client.PacketEventsClient for API LiteLoader core API
-[21:39:26] [main/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientPluginChannelsClient for API LiteLoader core API
-[21:39:26] [main/INFO]: Registering interface provider com.mumfrey.liteloader.core.ServerPluginChannels for API LiteLoader core API
-[21:39:26] [main/INFO]: Registering interface provider com.mumfrey.liteloader.messaging.MessageBus for API LiteLoader core API
-[21:39:26] [main/INFO]: Discovered 1 total mod(s), injected 1 tweak(s)
-[21:39:26] [main/INFO]: Loading mod from com.mumfrey.worldeditcui.LiteModWorldEditCUI
-[21:39:26] [main/INFO]: Baking listener list for ModLoadObserver with 1 listeners
-[21:39:26] [main/INFO]: Successfully added mod WorldEditCUI version 1.12.1_00
-[21:39:26] [main/INFO]: Adding "C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod" to active resource pack set
-[21:39:26] [main/INFO]: Setting up "mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod" as mod resource pack with identifier "WorldEditCUI"
-[21:39:26] [main/INFO]: Successfully added "C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod" to active resource pack set
-[21:39:26] [main/INFO]: Initialising mod WorldEditCUI version 1.12.1_00
-[21:39:26] [main/INFO]: Baking listener list for InterfaceObserver with 0 listeners
-[21:39:26] [main/INFO]: Listener WorldEditCUI is registering MessageBus channel wecui:wecui
-[21:42:23] [main/INFO]: Calling late init for mod WorldEditCUI
-[21:42:24] [main/INFO]: Baking listener list for ViewportListener with 0 listeners
-[21:42:24] [main/INFO]: Sound handler reload inhibit removed
-[21:42:24] [main/INFO]: Reloading sound handler
-[21:42:25] [main/INFO]: Baking listener list for GameLoopListener with 0 listeners
-[21:42:25] [main/INFO]: Baking listener list for RenderListener with 0 listeners
-[21:42:26] [main/INFO]: Baking listener list for TickObserver with 3 listeners
-[21:42:26] [main/INFO]: Baking listener list for PostRenderObserver with 3 listeners
-[21:42:26] [main/INFO]: Baking listener list for Tickable with 1 listeners
-[21:42:26] [main/INFO]: Baking listener list for FrameBufferListener with 0 listeners
-[21:47:13] [Netty Client IO #0/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
-[21:47:13] [Netty Client IO #0/INFO]: Successfully generated event handler proxy class with 124 handlers(s) and 124 total invocations
-[21:47:13] [Netty Client IO #0/INFO]: Baking listener list for PostLoginListener with 0 listeners
-[21:47:25] [main/INFO]: Baking listener list for PreJoinGameListener with 0 listeners
-[21:47:30] [main/INFO]: Baking listener list for JoinGameListener with 1 listeners
-[21:47:31] [main/INFO]: Baking listener list for PreRenderListener with 0 listeners
-[21:47:31] [main/INFO]: Baking listener list for PostRenderListener with 1 listeners
-[21:47:32] [main/INFO]: Baking listener list for HUDRenderListener with 0 listeners
-[21:47:32] [main/INFO]: Baking listener list for WorldObserver with 2 listeners
-[21:47:34] [main/INFO]: Baking listener list for EntityRenderListener with 0 listeners
+[22:20:38] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[22:20:38] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods]
+[22:20:38] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\1.12.2]
+[22:20:38] [main/INFO]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@7957dc72]
+[22:20:38] [main/INFO]: Discovering valid mod files in folder C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods
+[22:20:38] [main/INFO]: Inspecting jar metadata in '# LibLoader.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\# LibLoader.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'AkashicTome-1.2-10.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\AkashicTome-1.2-10.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'AppleSkin-mc1.12-1.0.9.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\AppleSkin-mc1.12-1.0.9.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Aquaculture-1.12.2-1.6.5.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Aquaculture-1.12.2-1.6.5.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Aroma1997Core-1.12.2-2.0.0.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Aroma1997Core-1.12.2-2.0.0.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Aroma1997s-Dimensional-World-1.12-1.3.0.0.b37.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Aroma1997s-Dimensional-World-1.12-1.3.0.0.b37.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'AromaBackup-1.12.2-2.1.1.4.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\AromaBackup-1.12.2-2.1.1.4.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'AutoRegLib-1.3-24.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\AutoRegLib-1.3-24.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Avaritia-1.12.2-3.2.0.25-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Avaritia-1.12.2-3.2.0.25-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Baubles-1.12-1.5.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Baubles-1.12-1.5.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'bdlib-1.14.3.12-mc1.12.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\bdlib-1.14.3.12-mc1.12.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'BedBugs-1.12-1.0.1.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\BedBugs-1.12-1.0.1.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'BetterAdvancements-1.12.2-0.0.16.71.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\BetterAdvancements-1.12.2-0.0.16.71.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'BetterFoliage-MC1.12-2.2.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\BetterFoliage-MC1.12-2.2.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'BetterSprinting++MC-1.12.2++v2.1.1.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\BetterSprinting++MC-1.12.2++v2.1.1.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Botania+r1.10-358.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Botania+r1.10-358.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'buildcraft-all-7.99.21.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\buildcraft-all-7.99.21.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Bullseye-1.12.2-3.0.6.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Bullseye-1.12.2-3.0.6.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Ceramics-1.12-1.3.4.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Ceramics-1.12-1.3.4.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'chameleoncreepers-1.4.1-1.12.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\chameleoncreepers-1.4.1-1.12.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Charset-Lib-0.5.3.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Charset-Lib-0.5.3.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Charset-StorageBarrels-0.5.3.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Charset-StorageBarrels-0.5.3.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Charset-StorageChests-0.5.3.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Charset-StorageChests-0.5.3.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Charset-StorageTanks-0.5.3.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Charset-StorageTanks-0.5.3.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Charset-TransportCartsRails-0.5.2.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Charset-TransportCartsRails-0.5.2.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ChickenChunks-1.12.2-2.4.1.71-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ChickenChunks-1.12.2-2.4.1.71-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'chiselsandbits-14.20.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\chiselsandbits-14.20.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Clumps-3.1.1.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Clumps-3.1.1.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'CodeChickenLib-1.12.2-3.2.2.353-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\CodeChickenLib-1.12.2-3.2.2.353-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'CoFHCore-1.12.2-4.6.1.22-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\CoFHCore-1.12.2-4.6.1.22-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'CoFHWorld-1.12.2-1.3.0.6-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\CoFHWorld-1.12.2-1.3.0.6-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'CsokiCraftUtil-1.3.6.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\CsokiCraftUtil-1.3.6.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'DeathCounter-1.12.1-1.0.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\DeathCounter-1.12.1-1.0.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'DebugServerInfo-1.12.2-1.0.5.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\DebugServerInfo-1.12.2-1.0.5.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Decocraft-2.6.0_1.12.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Decocraft-2.6.0_1.12.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'DynamicLights-1.12.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\DynamicLights-1.12.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ElevatorMod-1.12.2-1.3.6.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ElevatorMod-1.12.2-1.3.6.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'EnderCore-1.12.2-0.5.43.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\EnderCore-1.12.2-0.5.43.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'EnderIO-1.12.2-5.0.39.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\EnderIO-1.12.2-5.0.39.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'EnderIO-zoo-1.12.2-5.0.39.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\EnderIO-zoo-1.12.2-5.0.39.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'EnderStorage-1.12.2-2.4.4.132-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\EnderStorage-1.12.2-2.4.4.132-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'endertanks-1.12.0-1.6.6.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\endertanks-1.12.0-1.6.6.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ExtraBitManipulation-1.12-3.2.1.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ExtraBitManipulation-1.12-3.2.1.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'extrautils2-1.12-1.9.8.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\extrautils2-1.12-1.9.8.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ExtremeEnergy-1.1.9.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ExtremeEnergy-1.1.9.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'FastLeafDecay-v14.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\FastLeafDecay-v14.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'flatcoloredblocks-mc1.12-6.6.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\flatcoloredblocks-mc1.12-6.6.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'foamfix-0.10.3-1.12.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\foamfix-0.10.3-1.12.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'forestry_1.12.2-5.8.2.382.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\forestry_1.12.2-5.8.2.382.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Forgelin-1.8.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Forgelin-1.8.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ForgeMultipart-1.12.2-2.4.2.60-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ForgeMultipart-1.12.2-2.4.2.60-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'FullscreenWindowed-1.12-1.6.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\FullscreenWindowed-1.12-1.6.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'GraveStone-1.12.2-Extended-1.2.6.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\GraveStone-1.12.2-Extended-1.2.6.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'GraveStone-1.12.2-Graves-1.0.16.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\GraveStone-1.12.2-Graves-1.0.16.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Guide-API-1.12-2.1.6-61.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Guide-API-1.12-2.1.6-61.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'HelpFixer-1.12.1-1.5.18.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\HelpFixer-1.12.1-1.5.18.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Hwyla-1.8.26-B41_1.12.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Hwyla-1.8.26-B41_1.12.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'iChunUtil-1.12.2-7.1.4.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\iChunUtil-1.12.2-7.1.4.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ImmersiveEngineering-0.12-88.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ImmersiveEngineering-0.12-88.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'immersivepetroleum-1.12.2-1.1.9.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\immersivepetroleum-1.12.2-1.1.9.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'industrialcraft-2-2.8.109-ex112.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\industrialcraft-2-2.8.109-ex112.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'instantunify-1.12.2-1.1.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\instantunify-1.12.2-1.1.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'InventoryTweaks-1.63.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\InventoryTweaks-1.63.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'IronBackpacks-1.12.2-3.0.8-12.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\IronBackpacks-1.12.2-3.0.8-12.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'IvToolkit-1.3.3-1.12.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\IvToolkit-1.3.3-1.12.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'JEHC-1.12.2-1.6.1.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\JEHC-1.12.2-1.6.1.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'jei_1.12.2-4.13.1.225.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\jei_1.12.2-4.13.1.225.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'journeymap-1.12.2-5.5.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\journeymap-1.12.2-5.5.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'JustEnoughResources-1.12.2-0.8.5.27.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\JustEnoughResources-1.12.2-0.8.5.27.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'landcore-1.5.0.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\landcore-1.5.0.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'landcraft-2.2.1.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\landcraft-2.2.1.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'librarianlib-1.12.2-4.15.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\librarianlib-1.12.2-4.15.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'LLOverlayReloaded-1.1.6-mc1.12.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\LLOverlayReloaded-1.1.6-mc1.12.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'MagicBees-1.12.2-3.1.10.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MagicBees-1.12.2-3.1.10.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'malisisblocks-1.12.2-6.1.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\malisisblocks-1.12.2-6.1.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'malisiscore-1.12.2-6.4.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\malisiscore-1.12.2-6.4.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'malisisdoors-1.12.2-7.3.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\malisisdoors-1.12.2-7.3.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Mantle-1.12-1.3.3.39.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Mantle-1.12-1.3.3.39.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'mcjtylib-1.12-3.0.3.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mcjtylib-1.12-3.0.3.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'MCMultiPart-2.5.1.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MCMultiPart-2.5.1.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Mekanism-1.12.2-9.4.13.349.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Mekanism-1.12.2-9.4.13.349.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'MekanismGenerators-1.12.2-9.4.13.349.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MekanismGenerators-1.12.2-9.4.13.349.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'MekanismTools-1.12.2-9.4.13.349.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MekanismTools-1.12.2-9.4.13.349.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'MobAmputation-1.12.2-7.0.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MobAmputation-1.12.2-7.0.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'MobDismemberment-1.12.2-7.0.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MobDismemberment-1.12.2-7.0.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod'
+[22:20:38] [main/INFO]: Considering valid mod file: C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'moreoverlays-1.14-mc1.12.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\moreoverlays-1.14-mc1.12.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Morph-o-Tool-1.2-16.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Morph-o-Tool-1.2-16.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Morpheus-1.12-3.3.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Morpheus-1.12-3.3.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'MouseTweaks-2.8-mc1.12.1.jar'
+[22:20:38] [main/INFO]: Not adding invalid or version-mismatched mod file: C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MouseTweaks-2.8-mc1.12.1.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'MrTJPCore-1.12.2-2.1.3.35-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\MrTJPCore-1.12.2-2.1.3.35-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'multibeds-1.12.0-1.4.3.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\multibeds-1.12.0-1.4.3.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'multistorage-1.12.0-1.4.10.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\multistorage-1.12.0-1.4.10.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'natura-1.12.2-4.3.2.62.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\natura-1.12.2-4.3.2.62.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'NetherPortalFix_1.12.1-5.3.13.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\NetherPortalFix_1.12.1-5.3.13.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'NoMoreRecipeConflict-0.11(1.12.2).jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\NoMoreRecipeConflict-0.11(1.12.2).jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'NotEnoughItems-1.12.2-2.4.2.240-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\NotEnoughItems-1.12.2-2.4.2.240-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'NuclearCraft-2.13e--1.12.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\NuclearCraft-2.13e--1.12.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'omlib-1.12.2-3.0.1-162.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\omlib-1.12.2-3.0.1-162.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ompd-1.12.2-3.0.0-36.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ompd-1.12.2-3.0.0-36.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'OpenComputers-MC1.12.2-1.7.2.67.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\OpenComputers-MC1.12.2-1.7.2.67.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'openmodularturrets-1.12.2-3.0.1-264.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\openmodularturrets-1.12.2-3.0.1-264.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'OptiFine_1.12.2_HD_U_E3.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\OptiFine_1.12.2_HD_U_E3.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Pam's+HarvestCraft+1.12.2u.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Pam's+HarvestCraft+1.12.2u.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'platforms-1.12.0-1.4.5.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\platforms-1.12.0-1.4.5.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'plustic-6.5.2.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\plustic-6.5.2.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'PortalGun-1.12.2-7.0.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\PortalGun-1.12.2-7.0.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'PotionFingers-r1.0-2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\PotionFingers-r1.0-2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'pressure-1.3.1.6-mc1.12.1.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\pressure-1.3.1.6-mc1.12.1.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-Base.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-Base.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-compat.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-compat.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-fabrication.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-fabrication.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-integration.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-integration.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-lighting.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-lighting.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-mechanical.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-mechanical.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-world.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ProjectRed-1.12.2-4.9.1.92-world.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Psi-r1.1-70.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Psi-r1.1-70.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'PTRLib-1.0.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\PTRLib-1.0.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'railcraft-12.0.0-beta-4.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\railcraft-12.0.0-beta-4.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'reap-1.5.1.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\reap-1.5.1.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'reauth-3.6.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\reauth-3.6.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'RecurrentComplex-1.4.7.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\RecurrentComplex-1.4.7.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'RedstoneArsenal-1.12.2-2.6.1.15-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\RedstoneArsenal-1.12.2-2.6.1.15-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'RedstoneFlux-1.12-2.1.0.6-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\RedstoneFlux-1.12-2.1.0.6-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'refinedstorage-1.6.12.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\refinedstorage-1.6.12.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'refinedstorageaddons-0.4.3.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\refinedstorageaddons-0.4.3.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'rftools-1.12-7.55.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\rftools-1.12-7.55.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'rftoolsctrl-1.12-1.9.1.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\rftoolsctrl-1.12-1.9.1.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'rftoolsdim-1.12-5.60.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\rftoolsdim-1.12-5.60.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'rpsideas-2.1.5.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\rpsideas-2.1.5.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ScalingHealth-1.12-1.3.19-102.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ScalingHealth-1.12-1.3.19-102.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'shetiphiancore-1.12.0-3.5.7.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\shetiphiancore-1.12.0-3.5.7.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'SilentLib-1.12-2.2.18-100.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\SilentLib-1.12-2.2.18-100.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'SimpleLogic-Gates-0.5.3.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\SimpleLogic-Gates-0.5.3.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'SimpleLogic-Wires-0.5.3.2.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\SimpleLogic-Wires-0.5.3.2.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'SmoothWater-0.1.4.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\SmoothWater-0.1.4.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'sodiumcraft-1.3.4.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\sodiumcraft-1.3.4.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'TConstruct-1.12.2-2.12.0.115.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\TConstruct-1.12.2-2.12.0.115.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Tesla-1.12.2-1.0.63.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Tesla-1.12.2-1.0.63.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'teslafied-1.12-1.1.1.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\teslafied-1.12-1.1.1.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Thaumcraft-1.12.2-6.1.BETA26.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Thaumcraft-1.12.2-6.1.BETA26.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ThermalCultivation-1.12.2-0.3.1.8-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ThermalCultivation-1.12.2-0.3.1.8-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ThermalDynamics-1.12.2-2.5.3.16-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ThermalDynamics-1.12.2-2.5.3.16-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ThermalExpansion-1.12.2-5.5.2.39-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ThermalExpansion-1.12.2-5.5.2.39-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ThermalFoundation-1.12.2-2.6.1.22-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ThermalFoundation-1.12.2-2.6.1.22-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ThermalInnovation-1.12.2-0.3.1.8-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\ThermalInnovation-1.12.2-0.3.1.8-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'thutcore-1.12.2-5.17.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\thutcore-1.12.2-5.17.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'thuttech-1.12.2-6.0.16.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\thuttech-1.12.2-6.0.16.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'TickProfiler-1.12-0.0.4.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\TickProfiler-1.12-0.0.4.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'TinkeredHegemony-0.2.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\TinkeredHegemony-0.2.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'tinker_io-1.12.2-release+2.6.1.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\tinker_io-1.12.2-release+2.6.1.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'TIS-3D-MC1.12.2-1.4.0.29.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\TIS-3D-MC1.12.2-1.4.0.29.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Translocators-1.12.2-2.5.0.73-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Translocators-1.12.2-2.5.0.73-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'twilightforest-1.12.2-3.8.689-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\twilightforest-1.12.2-3.8.689-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'UniDict-1.12.2-2.5f.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\UniDict-1.12.2-2.5f.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'UnlimitedChiselWorks-0.2.0.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\UnlimitedChiselWorks-0.2.0.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'WailaHarvestability-mc1.12-1.1.12.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\WailaHarvestability-mc1.12-1.1.12.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'WanionLib-1.12.2-1.5.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\WanionLib-1.12.2-1.5.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Wawla-1.12.2-2.5.257.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Wawla-1.12.2-2.5.257.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'Waystones_1.12.2-4.0.54.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\Waystones_1.12.2-4.0.54.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'WR-CBE-1.12.2-2.3.0.27-universal.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\WR-CBE-1.12.2-2.3.0.27-universal.jar
+[22:20:38] [main/INFO]: Inspecting jar metadata in '[1.12.x]+SecurityCraft+v1.8.6.jar'
+[22:20:38] [main/INFO]: Ignoring C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\[1.12.x]+SecurityCraft+v1.8.6.jar
+[22:20:38] [main/INFO]: Discovering valid mod files in folder C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\1.12.2
+[22:20:38] [main/INFO]: Inspecting jar metadata in 'ChickenASM-1.12-1.0.2.7.jar'
+[22:20:38] [main/INFO]: Baking listener list for EnumerationObserver with 1 listeners
+[22:20:38] [main/INFO]: Discovering tweaks on class path...
+[22:20:38] [main/INFO]: Registering discovered mod files in folder C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods
+[22:20:38] [main/INFO]: Adding newest valid mod file 'C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod' at revision 11210.0000
+[22:20:38] [main/INFO]: Registering discovered mod files in folder C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\1.12.2
+[22:20:38] [main/INFO]: Mod file 'ChickenASM-1.12-1.0.2.7.jar' provides tweakClass 'codechicken.asm.internal.Tweaker', adding to Launch queue with priority 1000
+[22:20:38] [main/INFO]: tweakClass 'codechicken.asm.internal.Tweaker' was successfully added
+[22:20:38] [main/INFO]: Initialising LiteLoader Mixins
+[22:20:38] [main/INFO]: LiteLoader PREINIT complete
+[22:20:43] [main/INFO]: FML detected, switching to searge mappings
+[22:23:01] [Client thread/INFO]: JInput Component Registry is initialising...
+[22:23:02] [Client thread/INFO]: Inspecting Mouse controller HID-konforme Maus on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Keyboard controller HID-Tastatur on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Keyboard controller HID-Tastatur on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Mouse controller HID-konforme Maus on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Keyboard controller HID-Tastatur on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Keyboard controller HID-Tastatur on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Mouse controller HID-konforme Maus on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Unknown controller HID-konformes Benutzersteuergerät on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Unknown controller HID-konformes, vom Hersteller definiertes Gerät on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Unknown controller HID-konformes, vom Hersteller definiertes Gerät on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Unknown controller Corsair composite virtual input device on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Unknown controller HID-konformes, vom Hersteller definiertes Gerät on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Unknown controller Corsair Vengeance M90 Mouse on Unknown...
+[22:23:02] [Client thread/INFO]: Inspecting Unknown controller Corsair VOID PRO Surround USB Adapter on Unknown...
+[22:23:02] [Client thread/INFO]: JInput Component Registry initialised, found 14 controller(s) 589 component(s)
+[22:23:02] [Client thread/INFO]: LiteLoader begin INIT...
+[22:23:02] [Client thread/INFO]: Baking listener list for CoreProvider with 2 listeners
+[22:23:02] [Client thread/INFO]: Injecting external mods into class path...
+[22:23:02] [Client thread/INFO]: Successfully injected mod file 'C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod' into classpath
+[22:23:02] [Client thread/INFO]: Injecting external mods into class path...
+[22:23:02] [Client thread/INFO]: Discovering mods on class path...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\jars\NewLaunch.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mojang\patchy\1.1\patchy-1.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\google\guava\guava\21.0\guava-21.0.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mumfrey\liteloader\1.12.2-SNAPSHOT\liteloader-1.12.2-SNAPSHOT.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2808\forge-1.12.2-14.23.5.2808-universal.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\libraries\com\mojang\minecraft\1.12.2\minecraft-1.12.2-client.jar...
+[22:23:02] [Client thread/INFO]: Discovering mods in valid mod files...
+[22:23:02] [Client thread/INFO]: Searching C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod...
+[22:23:02] [Client thread/INFO]: Found 1 potential matches
+[22:23:02] [Client thread/INFO]: Discovering mods in valid mod files...
+[22:23:02] [Client thread/INFO]: Mod class discovery completed
+[22:23:02] [Client thread/INFO]: LiteLoader begin POSTINIT...
+[22:23:02] [Client thread/INFO]: Inhibiting sound handler reload
+[22:23:02] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient for API LiteLoader core API
+[22:23:02] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.PacketEventsClient for API LiteLoader core API
+[22:23:02] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientPluginChannelsClient for API LiteLoader core API
+[22:23:02] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.core.ServerPluginChannels for API LiteLoader core API
+[22:23:02] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.messaging.MessageBus for API LiteLoader core API
+[22:23:02] [Client thread/INFO]: Discovered 1 total mod(s), injected 1 tweak(s)
+[22:23:02] [Client thread/INFO]: Loading mod from com.mumfrey.worldeditcui.LiteModWorldEditCUI
+[22:23:02] [Client thread/INFO]: Baking listener list for ModLoadObserver with 1 listeners
+[22:23:02] [Client thread/INFO]: Successfully added mod WorldEditCUI version 1.12.1_00
+[22:23:02] [Client thread/INFO]: Adding "C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod" to active resource pack set
+[22:23:02] [Client thread/INFO]: Setting up "mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod" as mod resource pack with identifier "WorldEditCUI"
+[22:23:02] [Client thread/INFO]: Successfully added "C:\Users\Public\MultiMC\instances\1.12.21\.minecraft\mods\mod_worldeditcui_1.12.1_00_lite_mc1.12.1.litemod" to active resource pack set
+[22:23:02] [Client thread/INFO]: Initialising mod WorldEditCUI version 1.12.1_00
+[22:23:02] [Client thread/INFO]: Baking listener list for InterfaceObserver with 0 listeners
+[22:23:02] [Client thread/INFO]: Listener WorldEditCUI is registering MessageBus channel wecui:wecui
+[22:28:37] [Client thread/INFO]: Calling late init for mod WorldEditCUI
+[22:28:37] [Client thread/INFO]: Baking listener list for ViewportListener with 0 listeners
+[22:28:37] [Client thread/INFO]: Sound handler reload inhibit removed
+[22:28:37] [Client thread/INFO]: Reloading sound handler
+[22:28:39] [Client thread/INFO]: Baking listener list for GameLoopListener with 0 listeners
+[22:28:48] [Client thread/INFO]: Baking listener list for RenderListener with 0 listeners
+[22:28:48] [Client thread/INFO]: Baking listener list for TickObserver with 3 listeners
+[22:28:48] [Client thread/INFO]: Baking listener list for PostRenderObserver with 3 listeners
+[22:28:48] [Client thread/INFO]: Baking listener list for Tickable with 1 listeners
+[22:28:48] [Client thread/INFO]: Baking listener list for FrameBufferListener with 0 listeners
+[22:30:08] [Client thread/INFO]: Baking listener list for ServerCommandProvider with 0 listeners
+[22:33:33] [Server thread/INFO]: Baking listener list for IEventState with 0 listeners
+[22:33:33] [Server thread/INFO]: Baking listener list for ServerTickable with 0 listeners
+[22:33:34] [Netty Server IO #1/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
+[22:33:34] [Netty Server IO #1/INFO]: Successfully generated event handler proxy class with 124 handlers(s) and 124 total invocations
+[22:33:34] [Netty Local Client IO #0/INFO]: Baking listener list for PostLoginListener with 0 listeners
+[22:33:35] [Server thread/INFO]: Baking listener list for ServerPlayerListener with 0 listeners
+[22:33:35] [Server thread/INFO]: Baking listener list for IEventState with 1 listeners
+[22:33:35] [Client thread/INFO]: Baking listener list for PreJoinGameListener with 0 listeners
+[22:33:43] [Client thread/INFO]: Baking listener list for JoinGameListener with 1 listeners
+[22:33:44] [Client thread/INFO]: Baking listener list for PreRenderListener with 0 listeners
+[22:33:44] [Client thread/INFO]: Baking listener list for PostRenderListener with 1 listeners
+[22:33:44] [Client thread/INFO]: Baking listener list for HUDRenderListener with 0 listeners
+[22:33:44] [Client thread/INFO]: Baking listener list for WorldObserver with 2 listeners
+[22:33:44] [Server thread/INFO]: Baking listener list for PlayerMoveListener with 0 listeners
+[22:33:44] [Client thread/INFO]: Baking listener list for ChatListener with 0 listeners
+[22:33:47] [Client thread/INFO]: Baking listener list for EntityRenderListener with 0 listeners
+[22:36:06] [Client thread/INFO]: Baking listener list for PlayerClickListener with 0 listeners
+[22:36:07] [Server thread/INFO]: Baking listener list for PlayerInteractionListener with 0 listeners
+[23:08:53] [Client thread/INFO]: LiteLoader is shutting down, shutting down core providers and syncing configuration
+[23:08:53] [Client thread/INFO]: Baking listener list for ShutdownObserver with 3 listeners
