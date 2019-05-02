@@ -1,0 +1,31 @@
+{
+    "Aluminum": {
+        "template": "uniform",
+        "block": {"name": "GalacticraftCore:tile.gcBlockCore", "metadata": 7},
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 18,
+        "minHeight": 0,
+        "maxHeight": 45,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0, 7]
+    },
+        "Silicon": {
+        "template": "uniform",
+        "block": {"name": "GalacticraftCore:tile.gcBlockCore", "metadata": 8},
+        "metadata": 8,
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 3,
+        "minHeight": 0,
+        "maxHeight": 25,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0, 7]
+    }
+}
